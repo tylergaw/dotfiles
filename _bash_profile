@@ -1,3 +1,21 @@
+BLUE="\[\033[01;34m\]"
+WHITE="\[\033[01;00m\]"
+MAGENTA="\[\033[01;35m\]"
+PINK="\[\033[01;31m\]"
+GREEN="\[\033[01;32m\]"
+
+PS1=""
+# Blue: User
+PS1=$PS1"$BLUE\u"
+# White: @
+PS1=$PS1"$WHITE@"
+# Blue: Hostname
+PS1=$PS1"$GREEN\h"
+PS1=$PS1"$WHITE:"
+PS1=$PS1"$MAGENTA\w " #pwd
+# White: newline, prompt
+PS1=$PS1"$WHITE\n# "
+
 alias ws="cd /Users/tyler/workspace"
 
 alias ls="ls -G"
