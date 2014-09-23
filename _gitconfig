@@ -1,0 +1,9 @@
+[core]
+  excludesfile = /Users/tyler/.gitignore
+
+[user]
+  name = Tyler Gaw
+  email = me@tylergaw.com
+
+[push]
+  default = current

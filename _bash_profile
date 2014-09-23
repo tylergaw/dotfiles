@@ -1,0 +1,21 @@
+alias ws="cd /Users/tyler/workspace"
+
+alias ls="ls -G"
+alias ll="ls -alG"
+
+alias gst="git status"
+alias gcam="git commit -am"
+alias gbr="git branch"
+
+source ~/.git-completion.sh
+
+# export WORKON_HOME=~/dev/envs
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/python/python-2.7.3/bin/python
+#export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/python/python-2.7.3/bin/virtualenv
+#export VIRTUALENV_USE_DISTRIBUTE=1
+#export VIRTUALENVWRAPPER_LOG_DIR="$WORKON_HOME"
+#export VIRTUALENVWRAPPER_HOOK_DIR="$WORKON_HOME"
+#source /usr/local/python/python-2.7.3/bin/virtualenvwrapper.sh
+
+export GIT_EDITOR="vim"
+export EDITOR="vim"
