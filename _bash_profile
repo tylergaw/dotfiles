@@ -8,13 +8,16 @@ alias ll="ls -alG"
 alias gst="git status"
 alias gcam="git commit -am"
 alias gbr="git branch"
+alias whereisbrew="brew config | grep HOMEBREW"
 
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
 
 export PS1='\e[33;40m\u\e[0m@\e[33;32m\h\e[0m \w\e[33;35m$(__git_ps1 " (%s)")\e[0m \n# '
 
-# export WORKON_HOME=~/dev/envs
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
 # export VIRTUALENVWRAPPER_PYTHON=/usr/local/python/python-2.7.3/bin/python
 #export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/python/python-2.7.3/bin/virtualenv
 #export VIRTUALENV_USE_DISTRIBUTE=1
