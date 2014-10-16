@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/share/npm/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/share/npm/bin
 
 alias ws="cd /Users/tyler/workspace"
 alias ls="ls -G"
@@ -11,6 +11,7 @@ alias d="django-admin"
 
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
+source ~/.profile
 
 export PS1='\e[33;40m\u\e[0m@\e[33;32m\h\e[0m \w\e[33;35m$(__git_ps1 " (%s)")\e[0m \n# '
 
@@ -25,6 +26,12 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 export GIT_EDITOR="vim"
 export EDITOR="vim"
+export SHOWTERM_SERVER="http://gw-showterm.herokuapp.com"
 
 export NVM_DIR="/Users/tyler/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
