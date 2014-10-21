@@ -13,7 +13,7 @@ source ~/.git-completion.sh
 source ~/.git-prompt.sh
 source ~/.profile
 
-export PS1='\e[33;40m\u\e[0m@\e[33;32m\h\e[0m \w\e[33;35m$(__git_ps1 " (%s)")\e[0m \n# '
+export PS1='\e[33;36m \w\e[33;35m$(__git_ps1 " (%s)")\e[0m \n# '
 
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
