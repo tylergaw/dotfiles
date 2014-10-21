@@ -8,6 +8,7 @@ alias gcam="git commit -am"
 alias gbr="git branch"
 alias whereisbrew="brew config | grep HOMEBREW"
 alias d="django-admin"
+alias gh=". ~/.github-open.sh"
 
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
