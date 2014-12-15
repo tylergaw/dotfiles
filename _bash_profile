@@ -11,7 +11,7 @@ alias whereisbrew="brew config | grep HOMEBREW"
 alias whichport="sudo lsof -i -P | grep -i \"listen\""
 alias d="django-admin"
 alias gh=". ~/.github-open.sh"
-alis ssh-gaw="ssh tyler@50.56.73.185 -p 8888"
+alias ssh-gaw="ssh tyler@50.56.73.185 -p 8888"
 
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
