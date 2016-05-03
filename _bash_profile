@@ -2,6 +2,8 @@ export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/mysql/bin
+export PATH=$PATH:$HOME/bin
 
 alias ws="cd /Users/tyler/workspace"
 alias ls="ls -G"
@@ -15,6 +17,7 @@ alias whichport="sudo lsof -i -P | grep -i \"listen\""
 alias d="django-admin"
 alias gh=". ~/.github-open.sh"
 alias ssh-gaw="ssh tyler@50.56.73.185 -p 8888"
+alias sshb="ssh -t bastion ssh"
 
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
