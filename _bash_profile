@@ -18,6 +18,7 @@ alias d="django-admin"
 alias gh=". ~/.github-open.sh"
 alias ssh-gaw="ssh tyler@50.56.73.185"
 alias sshb="ssh -t bastion ssh"
+alias camreset="sudo killall VDCAssistant"
 
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
