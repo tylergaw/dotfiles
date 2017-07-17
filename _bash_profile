@@ -29,15 +29,12 @@ export PS1='\e[33;36m \w\e[33;35m$(__git_ps1 " (%s)")\e[0m \n# '
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
-# export VIRTUALENVWRAPPER_PYTHON=/usr/local/python/python-2.7.3/bin/python
-#export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/python/python-2.7.3/bin/virtualenv
 #export VIRTUALENV_USE_DISTRIBUTE=1
 #export VIRTUALENVWRAPPER_LOG_DIR="$WORKON_HOME"
 #export VIRTUALENVWRAPPER_HOOK_DIR="$WORKON_HOME"
 
 export GIT_EDITOR="vim"
 export EDITOR="vim"
-export SHOWTERM_SERVER="http://gw-showterm.herokuapp.com"
 export PYTHONDONTWRITEBYTECODE=1
 
 export NVM_DIR="/Users/tyler/.nvm"
