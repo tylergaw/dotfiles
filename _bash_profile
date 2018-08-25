@@ -5,6 +5,12 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:$HOME/bin
 
+# emscripten crud. Will be a pain to update when I change versions.
+export PATH=$PATH:$HOME/emsdk
+export PATH=$PATH:$HOME/emsdk/clang/e1.38.10_64bit
+export PATH=$PATH:$HOME/emsdk/node/8.9.1_64bit/bin
+export PATH=$PATH:$HOME/emsdk/emscripten/1.38.10
+
 alias ws="cd /Users/tyler/workspace"
 alias ls="ls -G"
 alias ll="ls -alGhp"
