@@ -32,8 +32,8 @@ source ~/.profile
 
 export PS1='\e[33;36m \w\e[33;35m$(__git_ps1 " (%s)")\e[0m \n# '
 
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=$HOME/.virtualenvs
+#source /usr/local/bin/virtualenvwrapper.sh
 
 export GIT_EDITOR="vim"
 export EDITOR="vim"
