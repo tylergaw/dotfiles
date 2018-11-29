@@ -3,6 +3,7 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/mysql/bin
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
 export PATH=$PATH:$HOME/bin
 
 # emscripten crud. Will be a pain to update when I change versions.
