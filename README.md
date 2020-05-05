@@ -1,6 +1,8 @@
 # Deprecated
 
-Stopped using these in May 2020. Switched to a new machine. Now that the default shell is zsh I went with https://github.com/ohmyzsh/ohmyzsh.
+Stopped using these in May 2020 when I switched to a new machine. Now that the default shell is zsh I went with https://github.com/ohmyzsh/ohmyzsh. It covers ~90% of what I needed. The few things it doesn't, I customized in my `.zshrc`.
+
+----------
 
 Make setting up new crud easier.
 
