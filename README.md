@@ -1,3 +1,7 @@
+# Deprecated
+
+Stopped using these in May 2020. Switched to a new machine. Now that the default shell is zsh I went with https://github.com/ohmyzsh/ohmyzsh.
+
 Make setting up new crud easier.
 
 I borrowed this from Chris https://github.com/cshoe/dotfiles
